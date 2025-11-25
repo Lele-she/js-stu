@@ -1,0 +1,93 @@
+{
+  "id": "5073768",
+  "name": "Lele-com",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "46049423",
+      "name": "展开",
+      "font_class": "a-zhankaipoppy_icon_arrow_down",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "46049426",
+      "name": "赞",
+      "font_class": "a-zanpoppy_icon_like",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "46049441",
+      "name": "手机",
+      "font_class": "a-shoujipoppy_icon_mobile_phone",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "46049443",
+      "name": "添加",
+      "font_class": "a-tianjiapoppy_icon_add",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "46049445",
+      "name": "添加联系人",
+      "font_class": "a-tianjialianxirenpoppy_icon_add_contact",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "46049446",
+      "name": "首页",
+      "font_class": "a-shouyepoppy_icon_home",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "46049449",
+      "name": "提醒",
+      "font_class": "a-tixingpoppy_icon_jifen_alert",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "46049453",
+      "name": "退出",
+      "font_class": "a-tuichupoppy_icon_sign_out",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "46049454",
+      "name": "图片",
+      "font_class": "a-tupianpoppy_icon_image",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "46049472",
+      "name": "筛选",
+      "font_class": "a-shaixuanpoppy_icon_select",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "46049480",
+      "name": "最近浏览",
+      "font_class": "a-zuijinliulanpoppy_icon_zuijinliulan",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "46049481",
+      "name": "微信描边",
+      "font_class": "a-weixinmiaobianpoppy_icon_wechat",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    }
+  ]
+}

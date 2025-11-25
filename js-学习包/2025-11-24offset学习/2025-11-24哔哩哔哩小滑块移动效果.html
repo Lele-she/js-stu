@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            position: relative;
+            margin: auto;
+            width: 400px;
+            height: 50px;
+       
+        }
+   
+        a{
+            float: left;
+            display: block;
+            width: 50px;
+            height: 30px;
+            text-decoration: none;
+             color: black;
+          
+        }
+        .clear{
+            clear: both;
+
+        }
+     .line{
+            width: 30px;
+            height: 1px;
+            background-color: pink;
+   transition: all .3s;
+   
+     }
+     .active{
+        color: pink;
+     }
+    </style>
+</head>
+<body>
+    <div class="nav">
+       <a href="" class="active">首页</a>
+          <a href="">动画</a>
+            <a href="">番剧</a>
+           <a href="">国创</a>
+            <a href="">音乐</a>
+            <a href="">舞蹈</a>
+       <div class="clear"></div>
+        <div class="line"></div>
+    </div>
+    <script>
+        const nav=document.querySelector('.nav')
+        nav.addEventListener('click',function(e){
+            e.preventDefault()
+            if(e.target.tagName==='A'){
+           const line=document.querySelector('.line')
+           line.style.transform=`translateX(${e.target.offsetLeft}px)`
+           document.querySelector('.nav .active').classList.remove('active')
+           e.target.classList.add('active')
+            }
+        })
+    </script>
+</body>
+</html>

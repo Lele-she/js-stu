@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 5073768 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1764054754744') format('woff2'),
+       url('iconfont.woff?t=1764054754744') format('woff'),
+       url('iconfont.ttf?t=1764054754744') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-zhankaipoppy_icon_arrow_down:before {
+  content: "\e647";
+}
+
+.icon-a-zanpoppy_icon_like:before {
+  content: "\e648";
+}
+
+.icon-a-shoujipoppy_icon_mobile_phone:before {
+  content: "\e649";
+}
+
+.icon-a-tianjiapoppy_icon_add:before {
+  content: "\e64a";
+}
+
+.icon-a-tianjialianxirenpoppy_icon_add_contact:before {
+  content: "\e64b";
+}
+
+.icon-a-shouyepoppy_icon_home:before {
+  content: "\e64c";
+}
+
+.icon-a-tixingpoppy_icon_jifen_alert:before {
+  content: "\e64d";
+}
+
+.icon-a-tuichupoppy_icon_sign_out:before {
+  content: "\e64e";
+}
+
+.icon-a-tupianpoppy_icon_image:before {
+  content: "\e64f";
+}
+
+.icon-a-shaixuanpoppy_icon_select:before {
+  content: "\e650";
+}
+
+.icon-a-zuijinliulanpoppy_icon_zuijinliulan:before {
+  content: "\e651";
+}
+
+.icon-a-weixinmiaobianpoppy_icon_wechat:before {
+  content: "\e652";
+}
+

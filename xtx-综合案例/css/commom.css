@@ -1,0 +1,29 @@
+.w{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+.shortcut li a{
+    width: 60px;
+    height: 52px;
+color: #f5f5f5;    
+}
+.shortcut ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;/*里面所有元素垂直居中*/
+    height: 52px;
+}
+.shortcut .line{
+    width: 1px;
+    height: 12px;background-color: #999;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.shortcut .active{
+    color: aquamarine;
+}

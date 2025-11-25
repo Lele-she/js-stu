@@ -1,0 +1,62 @@
+//需求：当页面滑动到秒杀窗口时，导航栏出现，否则隐藏
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            position: fixed;
+            top: -80px;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background-color: purple;
+            color: white;
+            transition: all .3s;
+        }
+        .banner{
+            margin: 0  auto;
+            width: 1200px;
+            height: 1500px;
+            background-color: pink;
+             padding-top: 1px;
+
+        }
+        .lint{
+            margin-top: 400px;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(132, 185, 247);
+        }
+    </style>
+</head>
+<body>
+    <div class="head">我是顶部导航栏</div>
+    <div class="banner">
+            <div class="lint">
+                我是滑动块
+            </div>
+        </div>
+        <script>
+
+            const buy=document.querySelector('.lint')
+            const head=document.querySelector('.head')
+            window.addEventListener('scroll',function(){
+                    const n = document.documentElement.scrollTop || document.body.scrollTop;
+                if(n>=buy.offsetTop){
+                    head.style.top = '0'; // 显示导航
+            } else {
+                head.style.top = '-80px'; // 隐藏导航（补充回退逻辑）
+            }
+            })
+            /*三元运算
+          head.style.top=n>=buy.offsetTop?0:'-80px'
+            */
+        </script>
+</body>
+</html>
