@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 5073768 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1764054754744') format('woff2'),
-       url('iconfont.woff?t=1764054754744') format('woff'),
-       url('iconfont.ttf?t=1764054754744') format('truetype');
+       url('iconfont.woff2?t=1764127796183') format('woff2'),
+       url('iconfont.woff?t=1764127796183') format('woff'),
+       url('iconfont.ttf?t=1764127796183') format('truetype');
 }
 
 .iconfont {
@@ -15,16 +15,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-shouji:before {
+  content: "\e600";
+}
+
+.icon-fangdajing:before {
+  content: "\e633";
+}
+
+.icon-gouwuche:before {
+  content: "\e63f";
+}
+
 .icon-a-zhankaipoppy_icon_arrow_down:before {
   content: "\e647";
 }
 
 .icon-a-zanpoppy_icon_like:before {
   content: "\e648";
-}
-
-.icon-a-shoujipoppy_icon_mobile_phone:before {
-  content: "\e649";
 }
 
 .icon-a-tianjiapoppy_icon_add:before {

@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "5027",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1440887",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "624530",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
       "icon_id": "46049423",
       "name": "展开",
       "font_class": "a-zhankaipoppy_icon_arrow_down",
@@ -18,13 +39,6 @@
       "font_class": "a-zanpoppy_icon_like",
       "unicode": "e648",
       "unicode_decimal": 58952
-    },
-    {
-      "icon_id": "46049441",
-      "name": "手机",
-      "font_class": "a-shoujipoppy_icon_mobile_phone",
-      "unicode": "e649",
-      "unicode_decimal": 58953
     },
     {
       "icon_id": "46049443",

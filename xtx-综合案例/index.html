@@ -12,7 +12,7 @@
 <body>
     <div class="shortcut">
         <div class="w">
-            <ul>
+            <ul class="nav1">
                 <li><a href="#"  class="active">请先登录</a></li>
                 <li class="line"></li>
                 <li><a href="#">免费注册</a></li>
@@ -25,19 +25,53 @@
                   <li class="line"></li>
                 <li><a href="#">在线客服</a></li>
                   <li class="line"></li>
-                <li><a href="#">  <i class="iconfont icon-a-shoujipoppy_icon_mobile_phone"></i>手机版</a></li>
+                <li><a href="#">  <i class="iconfont  icon-shouji"></i>手机版</a></li>
             </ul>
         </div>
     </div>
-<script>
-    const nav1=document.querySelector('ul')
+    <div class="header w">
+      <div class="logo">
+        <h1>
+          <a href="index.html"  title="小兔鲜儿">
+            <img src="../xtx-综合案例/images/logo.png" alt="">
+          </a>
+        </h1>
+      </div>
+      <div class="box">
+     <a href="index.html" class="active">首页</a>
+      <a href="">生鲜</a>
+       <a href="">美食</a>
+       <a href="">餐厨</a>
+       <a href="">电器</a>
+      <a href="">家居</a>
+       <a href="">洗护</a>
+        <a href="">孕婴</a>
+        <a href="">服装</a>
+        <div class="clear"></div>
+           <div class="line"></div>
+          </div>
+        <div class="search"><i class="iconfont icon-fangdajing"></i><input type="text" placeholder="搜一搜"></div>
+        <div class="car"><i class="iconfont icon-gouwuche"></i></div>
+    </div>
+
+<script> 
+    const nav1=document.querySelector('.nav1')
     nav1.addEventListener('mouseover',function(e){ 
         if(e.target.tagName==='A'){
             e.preventDefault()
              document.querySelector('.active').classList.remove('active')
         e.target.classList.add('active')
         }
-       
+       const box=document.querySelector('.box')
+       box.addEventListener('click',function(e){
+        if(e.target.tagName==='A'){
+          e.preventDefault()
+          document.querySelector('.box .active').classList.remove('active')
+          e.target.classList.add('active')
+          const line=document.querySelector('.box .line')
+          line.style.transform=`translateX(${e.target.offsetLeft}px)`
+        }
+       })
     })
 </script>
 </body>
