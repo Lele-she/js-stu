@@ -211,3 +211,14 @@ align-items: center;
  left: 46%;
  bottom: 20%;
 }
+/* 直接选中图标类名，覆盖默认样式 */
+.shortcut .icon-shouji {
+  color: #f5f5f5 !important; /* 强制设置为浅灰色 */
+  font-size: 25px; /* 图标大小 */
+  margin-right: 5px; /* 与文字间距 */
+  vertical-align: middle; /* 对齐文字 */
+}
+.icon-gouwuche{
+ font-size: 30px;
+ color: #f5f5f5;
+}
