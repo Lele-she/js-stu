@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //使用场景：如果需要做倒计时的效果，可以借助时间戳完成
+        //什么是时间戳：
+        //比如2000年01月01日 00:00:00起至现在的毫秒数，是一种特殊的计量时间的方式
+        //算法：
+        //将来的时间戳-现在的时间戳=剩余毫秒数
+        //再把剩余时间的毫秒数转化为年月日时分秒就是倒计时了
+        const date =new Date();
+        console.log(date.getTime());
+        //第二种方法
+        console.log(+new Date())
+        //第三种方法
+        console.log(Date.now());
+
+        //-----------------------------
+        //获得指定时间的时间戳
+        console.log(+new Date('2025-11-25 19:00:00'))
+</script>
+</body>
+</html>
