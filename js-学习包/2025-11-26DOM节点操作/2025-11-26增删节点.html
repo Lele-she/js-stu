@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--增加节点：创建＋放置位置-->
+    <!--这里是第二种方法-->
+    <ul><li>我是原始li</li></ul>
+    <script>
+        //创建节点
+        const div =document.createElement('div')
+       //放到某个父元素里面
+       //第一种插入到最后一个孩子
+       document.body.appendChild(div)
+       //第二种插入到父元素的某个子元素的前面
+       //先拿到父元素
+       const ul =document.querySelector('ul')
+       //创建新节点
+       const li =document.createElement('li')
+       li.innerHTML ='我是新创建的li'
+       //插入父元素insertBefore(要插入的元素，参考元素)
+     ul.insertBefore(li,ul.children[0])
+    </script>
+</body>
+</html>
